@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: apigateway-public
+  zipkin:
+    sender:
+      type: RABBIT   
+    rabbitmq:
+      addresses: woodpecker.rmq.cloudamqp.com
+  rabbitmq:
+    username: lhjruafn
+    password: 2eaCOQlds2HcTrLyBcYIr_IGMNLqDZD2
+    virtual-host: lhjruafn
+    
+server:
+  port: 8775
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+zuul:
+  routes:
+    mssecurity:
+      path: /security/**
+      serviceId: MS-SECURITY
+      stripPrefix: false
+      sensitiveHeaders: Cookie,Set-Cookie
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
