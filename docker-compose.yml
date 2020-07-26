@@ -1,0 +1,30 @@
+version: "2"
+services:
+  mongo:
+    image: mongo:dlopez-dev
+    environment:
+      - MONGO_INITDB_DATABASE=dbdeudas
+      - MONGO_INITDB_ROOT_USERNAME=usrdeuda
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    ports:
+      - "27017:27017"
+  postgres:
+    image: postgres:dlopez-dev
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
+  rabbit:
+    image: rabbitmq
+    environment:
+      RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+      RABBITMQ_DEFAULT_USER: "admin"
+      RABBITMQ_DEFAULT_PASS: "admin"
+      RABBITMQ_DEFAULT_VHOST: "admin"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    volumes:
+      - "./plugins/enabled_plugins:/etc/rabbitmq/enabled_plugins"

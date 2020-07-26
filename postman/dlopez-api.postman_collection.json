@@ -1,0 +1,259 @@
+{
+	"variables": [],
+	"info": {
+		"name": "dlopez-api",
+		"_postman_id": "ab818cdf-3fca-2177-81dd-cdf895c62047",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8888/conexion/dev",
+			"request": {
+				"url": "http://localhost:8888/conexion/cer",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8084/mproperties/datosconexion/mongo",
+			"request": {
+				"url": "http://localhost:8084/mproperties/datosconexion/mongo",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8084/mproperties/datosconexion",
+			"request": {
+				"url": "http://localhost:8084/mproperties/datosconexion",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8765/conexion/mproperties/datosconexion/mongo",
+			"request": {
+				"url": "http://localhost:8765/conexion/mproperties/datosconexion/mongo",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/mspersona/personas",
+			"request": {
+				"url": "http://localhost:8081/mspersona/personas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8765/ms-persona/mspersona/personas",
+			"request": {
+				"url": "http://localhost:8765/ms-persona/mspersona/personas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8091/msbpersona/personas",
+			"request": {
+				"url": "http://localhost:8091/msbpersona/personas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8775/ms-persona/mspersona/personas",
+			"request": {
+				"url": "http://localhost:8775/ms-persona/mspersona/personas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8086/security/login/",
+			"request": {
+				"url": "http://localhost:8086/security/login/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"username\":\"admin\",\n\t\"password\":\"123456\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8775/security/login/",
+			"request": {
+				"url": "http://localhost:8775/security/login/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"username\":\"admin\",\n\t\"password\":\"123456\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8051/pagolinea/deuda/idCliente/15865658/idServicio/PGTR02",
+			"request": {
+				"url": "http://localhost:8051/pagolinea/deuda/idCliente/15865658/idServicio/PGTR02",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/msconsulta/deudas/idCliente/15865658/idServicio/PGTR03",
+			"request": {
+				"url": "http://localhost:8082/msconsulta/deudas/idCliente/15865658/idServicio/PGTR03",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8765/ms-consulta/msconsulta/deudas/idCliente/15865658/idServicio/PGTR03",
+			"request": {
+				"url": "http://localhost:8765/ms-consulta/msconsulta/deudas/idCliente/15865658/idServicio/PGTR03",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8092/mscbconsulta/deudas/idCliente/15865658/idServicio/PGTR23",
+			"request": {
+				"url": "http://localhost:8092/mscbconsulta/deudas/idCliente/15865658/idServicio/PGTR23",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8093/msbconsulta/deudas/idCliente/15865658/idServicio/PGTR23",
+			"request": {
+				"url": "http://localhost:8093/msbconsulta/deudas/idCliente/15865658/idServicio/PGTR23",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8073/mspago/procesar/cargo/abono",
+			"request": {
+				"url": "http://localhost:8073/mspago/procesar/cargo/abono",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"cuentacargo\":\"11205060709500\",\n\"cuentaabono\":\"11206060709890\",\n\"monto\":10.00,\n\"causal\":\"PAGO TELEFONO\",\n\"pagador\":\"15865658\",\n\"acreedor\":\"20602649412\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8074/msbpago/procesar/cargo/abono",
+			"request": {
+				"url": "http://localhost:8074/msbpago/procesar/cargo/abono",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"cuentacargo\":\"11205060709500\",\n\"cuentaabono\":\"11206060709890\",\n\"monto\":10.00,\n\"causal\":\"PAGO TELEFONO\",\n\"pagador\":\"15865658\",\n\"acreedor\":\"20602649412\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8775/msb-pago/msbpago/procesar/cargo/abono",
+			"request": {
+				"url": "http://localhost:8775/msb-pago/msbpago/procesar/cargo/abono",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNTk1MTQzNzUzLCJleHAiOjE1OTUxNDczNTN9.1sWkyAs9gRPSBCPms1XqW_2HOeQlhvGYHNw1XpjkFE7WLJ6yGxYdi5gJF7ek5xk3JdzkNjsaHLcqKv2ncd4_UQ",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"cuentacargo\":\"11205060709500\",\n\"cuentaabono\":\"11206060709890\",\n\"monto\":10.00,\n\"causal\":\"PAGO TELEFONO\",\n\"pagador\":\"15865658\",\n\"acreedor\":\"20602649412\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
